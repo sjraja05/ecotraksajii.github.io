@@ -1,0 +1,791 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .jumbotron {
+    background: url(../images/group-31.png);
+  width: 1440px;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+  }
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+  }
+  .navbar {
+    background: url(../images/group-31.png);
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: blue !important;
+    
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+  }
+
+  .slideanim {visibility:hidden;}
+
+
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+
+
+  
+  .Enabling-facility-ma {
+    width: 470px;
+    height: 152px;
+    margin-top: 50px;
+    font-family: Lato;
+    font-size: 75px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+.We-provide-Facility {
+  width: 470px;
+  height: 56px;
+  margin-top: -75px;
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+  .container{
+    width: 1280px;
+  }
+
+  .Button1{
+width: 139px;
+  height: 44px;
+
+
+background-color: #5fb450;
+color: white;
+transition: 0.3s;
+ 
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Lato;
+  font-size: 15px;
+  }
+  .Button1:hover {
+background-color: #54b743;
+    
+filter: brightness(125%);
+
+  }
+  .Group-15 {
+    width: 1440px;
+    height: 426px;
+   object-fit: contain;
+  }
+
+  .background11{
+    background: url(../images/combined-shape.png);
+  }
+  .figure{
+
+      width: 670px;
+      height: 500px;
+      margin: 50px 0 0 130px;
+      object-fit: contain;
+    
+  }
+  
+
+  .h1_why{
+    width: 139px;
+    height: 19px;
+    margin: 0 500px 15px 501px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #0090ff;
+  }
+  .Eco-Home {
+    width: 1440px;
+    height: 200px;
+    background-color: mintcream;
+  }
+  .A-new-approach-to-Fa {
+    width: 970px;
+    height: 82px;
+    margin: 15px 85px 30px;
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #190e4c;
+  }
+.col-sm-3{
+  width: 300px;
+  height: 350px;
+  
+  padding: 25px 35px;
+  box-shadow: 0 5px 15px 0 rgba(28, 53, 94, 0.09);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.Easy-to-Use-Technolo {
+  width: 240px;
+  height: 27px;
+  margin: 15px 0 10px;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--dark-indigo);
+}
+.Lorem-ipsum-dolor-si {
+  width: 240px;
+  height: 84px;
+  margin: 10px 0 20px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: var(--gunmetal);
+}
+.services{
+  width: 1440px;
+  background-color: mintcream;
+}
+
+.Group_8 {
+  width: 1170px;
+  height: 150px;
+  margin: 14px 135px 80px;
+  object-fit: contain;
+}
+.counter-box {
+  font-size: 60px;
+  margin: 0 0 15px;
+  color: #d2d2d2;
+ 
+}
+.Average-Cost-Saving {
+  width: 330px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #190e4c;
+}
+.counter{
+  width: 330px;
+  height: 57px;
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  align-self: center;
+  color: #0090ff;
+}
+
+.shape{
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  margin-left: 150px ;
+}
+
+
+.Ecotrak-works-with-t {
+  width: 570px;
+  height: 82px;
+  margin: 0 0 20px;
+  font-family: Lato;
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.Read-Our-Customer-St {
+  width: 183px;
+  height: 24px;
+  margin: 0 10px 0 0;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.Group-15 {
+  width: 1440px;
+  height: 426px;
+  padding: 80px 435px;
+  object-fit: contain;
+  background-color: #fff;
+}
+.Ecotrak-Features {
+  width: 188px;
+  height: 19px;
+  margin: 0 491px 15px 121px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #0090ff;
+  align-self: center;
+}
+.Robust-features-repl {
+  width: 970px;
+  height: 82px;
+  margin: 0 0 0 -250px;
+  font-family: Lato;
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+text-align: center;
+  color: #190e4c;
+}
+
+.Ecotrak-works-with-t {
+  width: 570px;
+  height: 82px;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+}
+.icons8-easy {
+  width: 26px;
+  height: 31px;
+  margin: 0 214px 15px 0;
+  object-fit: contain;
+}
+
+
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+
+  .Combined-Shape {
+    width: 1440px;
+    height: 600px;
+    margin: 0 0 1px;
+    background-image: #f6f6f6;
+  }
+
+  .Ecotrak-Logo {
+    width: 170px;
+    height: 31px;
+    margin: -25px -50px 150px;
+    object-fit: contain;
+  }
+
+  .menu {
+    width: 170px;
+    height: 104px;
+    
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #435058;
+  }
+  .menu-title {
+    width: 170px;
+    height: 24px;
+    margin: 0 0 10px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: var(--dark-indigo);
+  }
+
+  .menu-image-title{
+  cursor: pointer;
+
+  }
+  .menu-image-title:hover{
+
+    text-transform: bold;
+
+  }
+
+  .News {
+    width: 49px;
+    height: 17px;
+    margin: 25px 291px 10px 0;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #848c8e;
+  }
+
+  .From-Germs-To-Shatte {
+    width: 340px;
+    height: 81px;
+    margin: 10px 0 15px;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #190e4c;
+  }
+  .Read-More {
+    width: 74px;
+    height: 24px;
+    margin: 0 10px 0 0;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #190e4c;
+  }
+  .Path {
+    width: 5px;
+    height: 10px;
+    margin: 8px 0 6px 10px;
+    object-fit: contain;
+    background-color: #848c8e;
+  }
+  .Group-27-Copy-3 {
+    background-image:  "images/group-27-copy.png";
+    width: 580px;
+    height: 462px;
+    margin: 97px 860px 0 0;
+    padding: 23px 275px 81px 135px;
+    object-fit: contain;
+  }
+  .Learn-More {
+    width: 78px;
+    height: 24px;
+    
+    padding-top: 25px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color:#190e4c;
+  }
+  .Get-in-Touch-with-Us {
+    width: 240px;
+    height: 82px;
+  padding-left: 25px;
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  .Lorem-ipsum-dolor-si {
+    width: 240px;
+    height: 84px;
+    margin: 7px 0 0;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  .Terms-Privacy-Suppor {
+    width: 170px;
+    height: 104px;
+    margin: 223px 0 0;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: var(--gunmetal);
+  }
+  .Terms-Privacy-Suppor {
+    width: 170px;
+    height: 104px;
+    margin: 100px 0 0;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #435058;
+  }
+  .Lorem-ipsum {
+    width: 240px;
+    height: 84px;
+    margin: 10px 0 20px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: var(--gunmetal);
+  }
+  .Watch-it-in-Action {
+    width: 121px;
+    height: 24px;
+    margin: 5px 3px 5px 0;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  .Keep-in-Touch {
+    width: 270px;
+    height: 32px;
+    margin: 0 0 5px;
+    font-family: Lato;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--dark-indigo);
+  }
+  .Sign-Up-For-Emails {
+    width: 270px;
+    height: 24px;
+    margin: 5px 0 20px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #190e4c;
+  }
+
+    .bluescr{
+      height: 426px;
+      width: 1440px;
+      background-image: url(../images/rectangle.png);
+    }
+    .Ecotrak-works-with-t {
+      width: 1000px;
+      height: 82px;
+      
+      font-family: Lato;
+      font-size: 34px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+    .Read-Our-Customer-St {
+      width: 183px;
+      height: 24px;
+      margin: 0 10px 0 0;
+      font-family: Lato;
+      font-size: 15px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.6;
+      letter-spacing: normal;
+      color: #ffffff;
+    }
+    .Rectangle-Copy-9 {
+      width: 340px;
+      height: 1px;
+      margin: 25px 0 0;
+      background-color: #190e4c;
+    }
+    .User-friendly-experi {
+      width: 347px;
+      height: 100px;
+      opacity: 0.65;
+      font-family: Lato;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #190e4c;
+    cursor: pointer;
+    }
+    .hr{
+      color: #06021a;
+      height: 10px;
+      font-weight: 10px;
+      }
+
+      .Rectangle11 {
+        width: 720px;
+        height: 581px;
+        padding: 80px 135px 80px 215px;
+        background-color: #190e4c ;
+      }
+     
+      .No-matter-the-indust {
+        width: 370px;
+        height: 96px;
+        margin: 0 0 40px;
+        font-family: Lato;
+        font-size: 26px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
+      .Restaurants {
+        width: 370px;
+        height: 41px;
+        margin: 0 0 20px;
+        opacity: 0.5;
+        font-family: Lato;
+        font-size: 34px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -1px;
+        color: #ffffff;
+      }
+      .Rectangle-2 {
+        width: 720px;
+        height: 581px;
+        align-self: center;
+        object-fit: contain;
+      }
+      .body11 {
+        width: 1440px;
+        height: 581px;
+        margin: 55px 0 0;
+        padding: 150px 435px;
+        object-fit: contain;
+      }

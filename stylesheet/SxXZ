@@ -1,0 +1,39 @@
+
+  <p class="Ecotrak-Features center-block">Ecotrak Features</p><br>
+  <p class="Robust-features-repl">Robust features replacing time-wasting <br> calls, emails, and spreadsheets</p>
+
+
+  <div class="Group-15 container-fluid">
+  <div class="row">
+    
+    <div class="col-md-12 container-fluid w3-hover-border-white">
+      <p class="Ecotrak-Features" >Ecotrak Features</p>
+      <p style=" width: 970px;
+      height: 82px;
+      font-family: Lato;
+      font-size: 25px;
+      font-weight: bold;
+      
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+
+      color: #190e4c;">Robust features replacing time-wasting calls,
+      <br> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; emails, and spreadsheets </p>
+    </div>
+  
+    </div>
+
+    <div>
+      <div class="row">
+        <div class="col-lg-6">
+
+
+        </div>
+        <div class="col-lg-6">
+
+          
+        </div>
+      </div>
+    </div>
+</div>
